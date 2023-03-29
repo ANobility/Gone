@@ -11,7 +11,7 @@ func main() {
 	r.GET("/demo", func(c *gin.Context) {
 		c.HTML(http.StatusOK, "index.html", gin.H{
 			"name": "admin",
-			"pwd":  "nopwd",
+			"pwd":  "112345",
 		})
 	})
 	r.Run()
